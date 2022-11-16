@@ -1,0 +1,38 @@
+{
+  "name": "create-vanilla-js",
+  "version": "1.0.0",
+  "description": "A quick start package for your vanillaJS App",
+  "main": "index.js",
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  },
+  "browserslist": "> 0.25%, not dead",
+  "scripts": {
+    "start": "webpack serve --open --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Maddy",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.4",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.2.6",
+    "dotenv-webpack": "^7.0.3",
+    "eslint": "^7.28.0",
+    "eslint-webpack-plugin": "^2.5.4",
+    "html-webpack-plugin": "^5.3.1",
+    "mini-css-extract-plugin": "^1.6.0",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.0",
+    "webpack-dev-server": "^3.11.2",
+    "webpack-merge": "^5.8.0"
+  },
+  "dependencies": {
+    "three": "^0.146.0"
+  }
+}
