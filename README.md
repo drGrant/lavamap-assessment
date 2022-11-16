@@ -1,4 +1,4 @@
-## I used the a simple boilerplate to load the lavamap Assessment
+## I used a simple boilerplate to load the lavamap Assessment
 
 <hr/>
 
